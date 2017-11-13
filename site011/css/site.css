@@ -1,0 +1,68 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.btn {
+    height: 63px;
+    line-height: 63px;
+    border-radius: 200px;
+    padding: 0 50px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #0090ff;
+    border: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #159aff;
+}
+
+/* HEADER */
+.navbar-static-top {
+    background-color: #fff;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.navbar-brand {
+    height: 100px;
+    line-height: 100px;
+    padding-top: 0;
+}
+
+.navbar-nav > li > a {
+    line-height: 70px;
+    font-weight: bold;
+    position: relative;
+}
+
+.navbar-default .navbar-nav > li.active > a {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li.active > a:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li.active > a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 3px;
+    background-color: #0090ff;
+}
